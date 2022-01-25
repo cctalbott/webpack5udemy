@@ -1,8 +1,9 @@
 import HelloWorldButton from './components/hello-world-button/hello-world-button';
 import Heading from './components/heading/heading';
+import React from 'react';
 
 const heading = new Heading();
-heading.render();
+heading.render('hello world');
 const hellowWorldButton = new HelloWorldButton();
 hellowWorldButton.render();
 
